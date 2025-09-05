@@ -6,4 +6,4 @@ def test_add():
 
 def test_multiply():
     assert multiply(2, 3) == 6
-    assert multiply(-2, 5) == -5
+    assert multiply(-4, 5) == -5
