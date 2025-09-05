@@ -1,3 +1,5 @@
+# tests/test_main.py
+
 from main import add, multiply
 
 def test_add():
@@ -6,4 +8,4 @@ def test_add():
 
 def test_multiply():
     assert multiply(2, 3) == 6
-    assert multiply(-4, 5) == -5
+    assert multiply(-1, 5) == -5
